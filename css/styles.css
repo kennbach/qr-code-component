@@ -1,0 +1,98 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Reset */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  white-space: revert;
+}
+
+:root {
+  /* set font-size to base-10 from base-16 */
+  font-size: 62.5%;
+
+  /* Variables */
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+}
+
+/* Project Styles */
+body {
+  background-color: var(--color-white);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+main {
+  align-items: center;
+  background-color: var(--color-light-gray);
+  display: grid;
+  height: 100vh;
+  justify-items: center;
+  width: 100%;
+}
+
+.card {
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  width: 320px;
+}
+
+.qr-code {
+  align-items: center;
+  display: grid;
+  justify-items: center;
+}
+
+.qr-code img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.card-title {
+  color: var(--color-dark-blue);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0 1.6rem;
+  max-width: 20ch;
+  padding-top: 1em;
+}
+
+.card-content {
+  color: var(--color-grayish-blue);
+  margin: 0 1.6rem;
+  padding: 1em 0 1.5em 0;
+}
