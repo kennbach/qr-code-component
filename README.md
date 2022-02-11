@@ -33,14 +33,14 @@ Desktop Design
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Variables
 - CSS Grid
 - Mobile-first workflow
 - Accessibility Aware
 
 ### What I learned
 
-While developing this app I learned that color scheme trigger an accessibility warning for text contrast. Not wanting to stray from the restrictions of the project's design file, I left them as is, but noted that the designers should reevaluate their color choices.
+While developing this app I learned that the color scheme triggered an accessibility warning for text contrast. Not wanting to stray from the restrictions of the project's design file, I left them as is, but noted that the designers should re-evaluate their color choices.
 
 I also learned to change the root font-size from base-16 (16px) to base-10 (10px), making setting styles using `rem` much more intuitive, and fast. It is much easier to calculate what rem value would equal a size 15 font using base-10 (1.5rem) compared to base-16 (0.9375rem) simply by setting the root font-size to 62.5%, as shown below:
 
