@@ -26,7 +26,8 @@ Desktop Design
 
 ### Links
 
-- Solution URL: [https://kennbach.github.io/qr-code-component/](https://kennbach.github.io/qr-code-component/)
+- Solution URL: [https://github.com/kennbach/qr-code-component](https://github.com/kennbach/qr-code-component)
+- Live Site URL: [https://kennbach.github.io/qr-code-component/](https://kennbach.github.io/qr-code-component/)
 
 ## My process
 
