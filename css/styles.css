@@ -48,18 +48,16 @@ textarea {
 
 /* Project Styles */
 body {
-  background-color: var(--color-white);
+  background-color: var(--color-light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2;
 }
-
 main {
   align-items: center;
-  background-color: var(--color-light-gray);
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   justify-items: center;
   width: 100%;
 }
@@ -70,7 +68,7 @@ main {
   border-radius: 1.6rem;
   padding: 1.6rem;
   text-align: center;
-  width: 320px;
+  max-width: 320px;
   box-shadow: var(--card-box-shadow);
 }
 
@@ -79,10 +77,10 @@ main {
   display: grid;
   justify-items: center;
 }
-
 .qr-code img {
   border-radius: 1rem;
   width: 100%;
+  height: auto;
 }
 
 .card-title {
@@ -98,4 +96,14 @@ main {
   color: var(--color-grayish-blue);
   margin: 0 1.6rem;
   padding: 1em 0 1.5em 0;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: start;
+    margin-top: 5vw;
+  }
+  .card {
+    margin: 0 5vw;
+  }
 }
